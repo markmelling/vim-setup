@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/mark/prosody-hg/util'
+let g:netrw_dirhist_2='/home/mark/MRIX-Projects/apps/gaptrac/scripts/android'
+let g:netrw_dirhist_3='/home/mark/MRIX-Projects/apps/gaptrac/scripts/android/js'
+let g:netrw_dirhist_4='/home/mark/MRIX-Projects/apps/gaptrac/scripts/android/js/modules'
+let g:netrw_dirhist_5='/home/mark/MRIX-Projects/apps/gaptrac/scripts/android/js'
+let g:netrw_dirhist_6='/home/mark/MRIX-Projects/apps/gaptrac/scripts/android/js/modules'
+let g:netrw_dirhist_7='/etc/php5'
+let g:netrw_dirhist_8='/etc/php5/fpm'

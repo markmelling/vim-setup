@@ -1,0 +1,6 @@
+Don't forget you need to do this
+
+  cd ~/.vim/ruby/command-t 
+  ruby extconf.rb 
+  make 
+
