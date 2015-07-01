@@ -1,0 +1,219 @@
+let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
+argglobal
+setlocal noautoindent
+setlocal balloonexpr=
+setlocal nobinary
+setlocal bufhidden=
+setlocal buflisted
+setlocal buftype=
+setlocal nocindent
+setlocal cinkeys=0{,0},0),:,0#,!^F,o,O,e
+setlocal cinoptions=
+setlocal cinwords=if,else,while,do,for,switch
+setlocal colorcolumn=
+setlocal comments=sO:*\ -,mO:*\ \ ,exO:*/,s1:/*,mb:*,ex:*/,://
+setlocal commentstring=//%s
+setlocal complete=.,w,b,u,t,i
+setlocal completefunc=
+setlocal nocopyindent
+setlocal cryptmethod=
+setlocal nocursorbind
+setlocal nocursorcolumn
+setlocal nocursorline
+setlocal define=
+setlocal dictionary=
+setlocal nodiff
+setlocal equalprg=
+setlocal errorformat=
+setlocal expandtab
+if &filetype != 'javascript'
+setlocal filetype=javascript
+endif
+setlocal foldcolumn=0
+setlocal foldenable
+setlocal foldexpr=0
+setlocal foldignore=#
+setlocal foldlevel=4
+setlocal foldmarker={{{,}}}
+setlocal foldmethod=syntax
+setlocal foldminlines=1
+setlocal foldnestmax=20
+setlocal foldtext=foldtext()
+setlocal formatexpr=
+setlocal formatoptions=croql
+setlocal formatlistpat=^\\s*\\d\\+[\\]:.)}\\t\ ]\\s*
+setlocal grepprg=
+setlocal iminsert=2
+setlocal imsearch=2
+setlocal include=
+setlocal includeexpr=
+setlocal indentexpr=GetJsIndent()
+setlocal indentkeys=0{,0},:,0#,!^F,o,O,e,=},=),=],0=*/,0=/*,*<Return>
+setlocal noinfercase
+setlocal iskeyword=@,48-57,_,192-255,$
+setlocal keywordprg=
+setlocal nolinebreak
+setlocal nolisp
+setlocal nolist
+setlocal makeprg=
+setlocal matchpairs=(:),{:},[:]
+setlocal modeline
+setlocal modifiable
+setlocal nrformats=octal,hex
+setlocal number
+setlocal numberwidth=4
+setlocal omnifunc=javascriptcomplete#CompleteJS
+setlocal path=
+setlocal nopreserveindent
+setlocal nopreviewwindow
+setlocal quoteescape=\\
+setlocal noreadonly
+setlocal norelativenumber
+setlocal noscrollbind
+setlocal shiftwidth=2
+setlocal noshortname
+setlocal nosmartindent
+setlocal softtabstop=0
+setlocal nospell
+setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
+setlocal spellfile=
+setlocal spelllang=en
+setlocal statusline=
+setlocal suffixesadd=
+setlocal swapfile
+setlocal synmaxcol=3000
+if &syntax != 'javascript'
+setlocal syntax=javascript
+endif
+setlocal tabstop=2
+setlocal tags=~/MRIX-Console/.git/javascript.tags,~/MRIX-Console/.git/tags,./tags,tags
+setlocal textwidth=0
+setlocal thesaurus=
+setlocal noundofile
+setlocal nowinfixheight
+setlocal nowinfixwidth
+setlocal nowrap
+setlocal wrapmargin=0
+1
+normal zo
+13
+normal zc
+68
+normal zc
+104
+normal zo
+104
+normal zo
+566
+normal zc
+608
+normal zc
+702
+normal zo
+702
+normal zc
+844
+normal zo
+844
+normal zc
+961
+normal zo
+961
+normal zc
+1037
+normal zc
+1112
+normal zc
+1121
+normal zc
+1130
+normal zc
+1138
+normal zo
+1139
+normal zc
+1143
+normal zc
+1151
+normal zc
+1138
+normal zo
+1261
+normal zo
+1261
+normal zc
+1327
+normal zo
+1327
+normal zc
+1336
+normal zo
+1336
+normal zc
+1360
+normal zo
+1360
+normal zc
+1434
+normal zo
+1434
+normal zc
+1454
+normal zo
+1455
+normal zc
+1454
+normal zo
+1462
+normal zc
+1476
+normal zo
+1476
+normal zc
+1599
+normal zo
+1599
+normal zc
+1631
+normal zo
+1631
+normal zc
+1689
+normal zc
+1699
+normal zc
+1713
+normal zo
+1713
+normal zc
+1730
+normal zc
+1753
+normal zc
+1775
+normal zo
+1775
+normal zc
+1790
+normal zo
+1790
+normal zc
+1930
+normal zc
+1940
+normal zc
+1962
+normal zo
+1962
+normal zc
+1
+normal zo
+let s:l = 2018 - ((110 * winheight(0) + 27) / 54)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+2018
+normal! 0
+let &so = s:so_save | let &siso = s:siso_save
+doautoall SessionLoadPost
+" vim: set ft=vim :
